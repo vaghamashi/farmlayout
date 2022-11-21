@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#00E2FF"
+    tools:context=".MainActivity">
+
+  <Button
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:text="B1"
+      android:backgroundTint="@color/black"
+      android:textColor="#00E2FF"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B2"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/black"
+        android:textColor="#00E2FF"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B3"
+        android:layout_gravity="end"
+        android:backgroundTint="@color/black"
+        android:textColor="#00E2FF"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B4"
+        android:layout_gravity="center_vertical"
+        android:backgroundTint="@color/black"
+        android:textColor="#00E2FF"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B5"
+        android:layout_gravity="center"
+        android:backgroundTint="@color/black"
+        android:textColor="#00E2FF"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B6"
+        android:layout_gravity="center|end"
+        android:backgroundTint="@color/black"
+        android:textColor="#00E2FF"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B7"
+        android:layout_gravity="bottom"
+        android:backgroundTint="@color/black"
+        android:textColor="#00E2FF"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B8"
+        android:layout_gravity="bottom|center"
+        android:backgroundTint="@color/black"
+        android:textColor="#00E2FF"/>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="B9"
+        android:layout_gravity="bottom|end"
+        android:backgroundTint="@color/black"
+        android:textColor="#00E2FF"/>
+
+
+
+
+</FrameLayout>
